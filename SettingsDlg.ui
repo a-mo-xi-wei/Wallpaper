@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsDlg</class>
+ <widget class="QDialog" name="SettingsDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>412</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>412</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>412</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background-color:rgb(207,231,244);
+}
+
+QCheckBox,QLabel,QRadioButton{
+	border:none;
+	background-color:transparent;
+}
+QStackedWidget{
+	background-color:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 rgb(207,231,244),stop:1 white);
+	border-radius:5px;
+}
+QWidget#btnWidget QPushButton{
+	border:none;
+	background-color:rgb(106,140,188);
+	border-radius:8px;
+	height:30px;
+	width:100px;
+	color:white;
+}
+QWidget#btnWidget QPushButton:hover{
+	background-color:rgb(0,151,255);
+	
+}
+QWidget#closeWidget QPushButton{
+	image:url(:/Resource/button/shut.png);
+	border:none;
+	width:32px;
+	height:32x;
+	border-radius:0px;
+	background-color:rgb(217,217,217);
+}
+QWidget#closeWidget QPushButton:hover{background-color:red;}
+QWidget#stackedWidget QPushButton{
+	border:none;
+	background-color:rgb(44,222,133);
+	height:32px;
+	border-radius:8px;
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_settings">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>程序设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>自定义桌面壁纸</string>
+         </property>
+         <widget class="QRadioButton" name="backPng1">
+          <property name="geometry">
+           <rect>
+            <x>21</x>
+            <y>31</y>
+            <width>89</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>1.png</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="backPng2">
+          <property name="geometry">
+           <rect>
+            <x>21</x>
+            <y>53</y>
+            <width>89</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>2.png</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="backPng3">
+          <property name="geometry">
+           <rect>
+            <x>21</x>
+            <y>75</y>
+            <width>89</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>3.png</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="selectPicture">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>75</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>自定义壁纸</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_littleboy">
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>-48</y>
+         <width>221</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="Resource.qrc">:/Resource/desktopRole/littleBoy/0.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="model3Chx">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>57</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>模型③</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_blackgril">
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>271</width>
+         <height>331</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="Resource.qrc">:/Resource/desktopRole/blackGril/action1-happy/1.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="model1Chx">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>77</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>模型①</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="emoji1rbtn">
+       <property name="geometry">
+        <rect>
+         <x>161</x>
+         <y>21</y>
+         <width>77</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开心（喜）</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="emoji2rbtn">
+       <property name="geometry">
+        <rect>
+         <x>161</x>
+         <y>43</y>
+         <width>77</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>哀怨（伤）</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="emoji3rbtn">
+       <property name="geometry">
+        <rect>
+         <x>161</x>
+         <y>65</y>
+         <width>77</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>调皮（皮）</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="emoji4rbtn">
+       <property name="geometry">
+        <rect>
+         <x>161</x>
+         <y>87</y>
+         <width>77</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>害羞（羞）</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_summergril">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>35</y>
+         <width>270</width>
+         <height>318</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="Resource.qrc">:/Resource/desktopRole/summerGril/0.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="model2Chx">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>57</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>模型②</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>108</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="closeWidget" native="true">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>32</height>
+         </size>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="closeBtn">
+           <property name="minimumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="btnWidget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="settingsbtn">
+           <property name="text">
+            <string>设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="model1btn">
+           <property name="text">
+            <string>人物模型①</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="model2btn">
+           <property name="text">
+            <string>人物模型②</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="model3btn">
+           <property name="text">
+            <string>人物模型③</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Wallpaper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Wallpaper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wallpaper-Debug-dda21a3600fc0ec173b2.json",
+					"name" : "Wallpaper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wallpaper_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wallpaper_autogen-Debug-b212cb5810b309cae3c9.json",
+					"name" : "Wallpaper_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wallpaper_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wallpaper_autogen_timestamp_deps-Debug-f6beb7089bd08023ee7a.json",
+					"name" : "Wallpaper_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build",
+		"source" : "F:/code_review/Qt-WorkSpace/fight/Wallpaper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

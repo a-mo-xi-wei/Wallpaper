@@ -1,0 +1,16 @@
+# ninja log v5
+4	341	7312467794360850	Wallpaper_autogen/timestamp	d86736a634ebee7
+4	341	7312467794360850	Wallpaper_autogen/mocs_compilation.cpp	d86736a634ebee7
+4	341	7312467794360850	F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/Wallpaper_autogen/timestamp	d86736a634ebee7
+4	341	7312467794360850	F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/Wallpaper_autogen/mocs_compilation.cpp	d86736a634ebee7
+342	715	7312467798726775	Wallpaper_autogen/EWIEGA46WW/qrc_Resource.cpp	c57bf2b0ffd14ebd
+342	715	7312467798726775	F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/Wallpaper_autogen/EWIEGA46WW/qrc_Resource.cpp	c57bf2b0ffd14ebd
+720	2009	7312467811689144	CMakeFiles/Wallpaper.dir/main.cpp.obj	477f2dec10aa82aa
+738	2096	7312467812544551	CMakeFiles/Wallpaper.dir/Util/SEventFilterObject.cpp.obj	5fc20fea25e151a9
+715	2135	7312467812935525	CMakeFiles/Wallpaper.dir/Wallpaper_autogen/mocs_compilation.cpp.obj	edba970b5d59bdd2
+729	2366	7312467815242782	CMakeFiles/Wallpaper.dir/SettingsDlg.cpp.obj	a4af83be6009a1ec
+743	2434	7312467815941724	CMakeFiles/Wallpaper.dir/Util/finddektophwnd.cpp.obj	930d80bad8aab5c9
+733	2493	7312467816523861	CMakeFiles/Wallpaper.dir/WallpaperWidget.cpp.obj	c3f8f5d00e874432
+724	2704	7312467818636280	CMakeFiles/Wallpaper.dir/MainWindow.cpp.obj	e268d4fe97a4b82d
+747	4325	7312467834659108	CMakeFiles/Wallpaper.dir/Wallpaper_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	714cec238c58d13c
+4325	5086	7312467842267469	Wallpaper.exe	1f161a30456106d6

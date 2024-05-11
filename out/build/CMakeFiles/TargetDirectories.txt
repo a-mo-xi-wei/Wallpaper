@@ -1,0 +1,5 @@
+F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/CMakeFiles/Wallpaper.dir
+F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/CMakeFiles/edit_cache.dir
+F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/CMakeFiles/rebuild_cache.dir
+F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/CMakeFiles/Wallpaper_autogen_timestamp_deps.dir
+F:/code_review/Qt-WorkSpace/fight/Wallpaper/out/build/CMakeFiles/Wallpaper_autogen.dir
